@@ -39,7 +39,7 @@ class Config(object):
     START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/5ba316e179b39faa71904.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1229852181').split()]
     FORCE_SUB   = os.environ.get("FORCE_SUB", "Illegal_Developer") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002016058911"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001869105126"))
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
